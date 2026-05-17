@@ -2,7 +2,6 @@
 
 A production-grade multi-tenant API Gateway built with Java 21 and Spring Boot 3. Tenants register their backends; all traffic flows through Nexus which handles authentication, rate limiting, routing, observability, and resilience. Think self-hosted Kong.
 
-This is **Phase 2** of a 3-project Java learning roadmap (Phase 1: TicketHub, Phase 3: Forge).
 
 ---
 
@@ -38,7 +37,7 @@ This is **Phase 2** of a 3-project Java learning roadmap (Phase 1: TicketHub, Ph
 | Load Testing | Gatling |
 | API Docs | SpringDoc OpenAPI |
 
-> Runs on port **8081** to avoid conflicts with TicketHub (8080) and Forge (8082).
+> Runs on port **8081**.
 
 ---
 
