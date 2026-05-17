@@ -1,0 +1,19 @@
+package com.nexus.infrastructure.ratelimit;
+
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.stereotype.Component;
+
+@Component
+public class FreePlanRateLimiter extends AbstractTenantRateLimiter{
+
+    protected FreePlanRateLimiter(RedisTemplate<String, String> redisTemplate) {
+        super(redisTemplate);
+    }
+
+    @Override
+    protected int getLimit() {
+        
+        return 60;
+    }
+    
+}

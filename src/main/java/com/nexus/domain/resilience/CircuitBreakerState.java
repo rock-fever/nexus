@@ -1,0 +1,5 @@
+package com.nexus.domain.resilience;
+
+public enum CircuitBreakerState {
+    CLOSED, OPEN, HALF_OPEN;
+}
