@@ -2,6 +2,9 @@
 
 A production-grade multi-tenant API Gateway built with Java 21 and Spring Boot 3. Tenants register their backends; all traffic flows through Nexus which handles authentication, rate limiting, routing, observability, and resilience. Think self-hosted Kong.
 
+## Architecture
+
+![Architecture Diagram](arch.png)
 
 ---
 
